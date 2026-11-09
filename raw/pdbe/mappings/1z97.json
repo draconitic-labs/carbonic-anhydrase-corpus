@@ -1,0 +1,1 @@
+{"1z97":{"UniProt":{"P07451":{"name":"CAH3_HUMAN","mappings":[{"entity_id":1,"chain_id":"A","struct_asym_id":"A","unp_start":1,"unp_end":260,"start":{"author_residue_number":null,"author_insertion_code":"","residue_number":1},"end":{"author_residue_number":261,"author_insertion_code":"","residue_number":260},"identity":0.98,"coverage":1.0}],"identifier":"CAH3_HUMAN"}}}}

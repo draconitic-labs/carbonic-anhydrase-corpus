@@ -1,0 +1,1206 @@
+{
+  "metadata": {
+    "corpus_id": "human-alpha-carbonic-anhydrase-evidence-v1",
+    "data_dictionary": "docs/data-dictionary.md",
+    "generated_from_snapshots_at": "2026-07-14T09:23:31Z",
+    "record_counts": {
+      "assay_activity": 28,
+      "experimental_structure_mapping": 80,
+      "proteins": 15,
+      "reaction_assignment": 12,
+      "total_evidence_records": 120
+    },
+    "release_id": "haca-evidence-v1-65b5b649821ae0b0",
+    "schema_version": "1.0.0",
+    "scope": {
+      "acatalytic_related_paralog_count": 3,
+      "catalytic_paralog_count": 12,
+      "clinical_use": false,
+      "core_paralog_count": 15,
+      "kinetic_or_flux_model": false,
+      "organism": "Homo sapiens",
+      "taxon_id": 9606
+    },
+    "selection_policy_document": "README.md#selection-policy",
+    "source_releases": {
+      "chembl": "ChEMBL_37",
+      "chembl_release_date": "2026-05-01",
+      "pdbe": "live-api-snapshot; per-entry revision_date retained",
+      "rhea": "141",
+      "rhea_release_date": "2026-06-10",
+      "uniprot": "2026_02"
+    },
+    "title": "Human alpha-carbonic anhydrase evidence corpus"
+  },
+  "proteins": [
+    {
+      "alternative_names": [
+        "Carbonate dehydratase I",
+        "Carbonic anhydrase B",
+        "Carbonic anhydrase I",
+        "Cyanamide hydratase CA1"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/P00915/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Catalyzes the reversible hydration of carbon dioxide (PubMed:10550681, PubMed:16506782, PubMed:16686544, PubMed:16807956, PubMed:17127057, PubMed:17314045, PubMed:17407288, PubMed:18618712, PubMed:19186056, PubMed:19206230). Can hydrate cyanamide to urea (PubMed:10550681)"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL261"
+      ],
+      "entry_version": 235,
+      "experimental_pdb_cross_reference_count": 55,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Catalyzes the reversible hydration of carbon dioxide (PubMed:10550681, PubMed:16506782, PubMed:16686544, PubMed:16807956, PubMed:17127057, PubMed:17314045, PubMed:17407288, PubMed:18618712, PubMed:19186056, PubMed:19206230). Can hydrate cyanamide to urea (PubMed:10550681)"
+      ],
+      "gene_symbol": "CA1",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:P00915",
+      "protein_name": "Carbonic anhydrase 1",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:31Z",
+          "snapshot_path": "raw/uniprot/entries/P00915.json",
+          "snapshot_sha256": "b3bde31c781c25e15bf68bd00c694f9b1027cdc49ec26688ca7d047de2a6ca95",
+          "url": "https://rest.uniprot.org/uniprotkb/P00915.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 10,
+      "sequence": {
+        "crc64": "4959E5FA25E374F8",
+        "length": 261,
+        "modified": null,
+        "molecular_weight": 28870,
+        "sequence_version": 2,
+        "value": "MASPDWGYDDKNGPEQWSKLYPIANGNNQSPVDIKTSETKHDTSLKPISVSYNPATAKEIINVGHSFHVNFEDNDNRSVLKGGPFSDSYRLFQFHFHWGSTNEHGSEHTVDGVKYSAELHVAHWNSAKYSSLAEAASKADGLAVIGVLMKVGEANPKLQKVLDALQAIKTKGKRAPFTNFDPSTLLPSSLDFWTYPGSLTHPPLYESVTWIICKESISVSSEQLAQFRSLLSNVEGDNAVPMQHNNRPTQPLKGRTVRASF"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "B0BNN3",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "P00915",
+      "uniprot_entry_name": "CAH1_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase II",
+        "Carbonic anhydrase C",
+        "Carbonic anhydrase II",
+        "Cyanamide hydratase CA2"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/P00918/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Catalyzes the reversible hydration of carbon dioxide (PubMed:11327835, PubMed:11802772, PubMed:11831900, PubMed:12056894, PubMed:12171926, PubMed:1336460, PubMed:14736236, PubMed:15300855, PubMed:15453828, PubMed:15667203, PubMed:15865431, PubMed:16106378, PubMed:16214338, PubMed:16290146, PubMed:16686544, PubMed:16759856, PubMed:16807956, PubMed:17127057, PubMed:17251017, PubMed:17314045, PubMed:17330962, PubMed:17346964, PubMed:17540563, PubMed:17588751, PubMed:17705204, PubMed:18024029, PubMed:18162396, PubMed:18266323, PubMed:18374572, PubMed:18481843, PubMed:18618712, PubMed:18640037, PubMed:18942852, PubMed:1909891, PubMed:1910042, PubMed:19170619, PubMed:19186056, PubMed:19206230, PubMed:19520834, PubMed:19778001, PubMed:7761440, PubMed:7901850, PubMed:8218160, PubMed:8262987, PubMed:8399159, PubMed:8451242, PubMed:8485129, PubMed:8639494, PubMed:9265618, PubMed:9398308). Can also hydrate cyanamide to urea (PubMed:10550681, PubMed:11015219). Stimulates the chloride-bicarbonate exchange activity of SLC26A6 (PubMed:15990874). Essential for bone resorption and osteoclast differentiation (PubMed:15300855). Involved in the regulation of fluid secretion into the anterior chamber of the eye. Contributes to intracellular pH regulation in the duodenal upper villous epithelium during proton-coupled peptide absorption"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL205"
+      ],
+      "entry_version": 278,
+      "experimental_pdb_cross_reference_count": 1182,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Catalyzes the reversible hydration of carbon dioxide (PubMed:11327835, PubMed:11802772, PubMed:11831900, PubMed:12056894, PubMed:12171926, PubMed:1336460, PubMed:14736236, PubMed:15300855, PubMed:15453828, PubMed:15667203, PubMed:15865431, PubMed:16106378, PubMed:16214338, PubMed:16290146, PubMed:16686544, PubMed:16759856, PubMed:16807956, PubMed:17127057, PubMed:17251017, PubMed:17314045, PubMed:17330962, PubMed:17346964, PubMed:17540563, PubMed:17588751, PubMed:17705204, PubMed:18024029, PubMed:18162396, PubMed:18266323, PubMed:18374572, PubMed:18481843, PubMed:18618712, PubMed:18640037, PubMed:18942852, PubMed:1909891, PubMed:1910042, PubMed:19170619, PubMed:19186056, PubMed:19206230, PubMed:19520834, PubMed:19778001, PubMed:7761440, PubMed:7901850, PubMed:8218160, PubMed:8262987, PubMed:8399159, PubMed:8451242, PubMed:8485129, PubMed:8639494, PubMed:9265618, PubMed:9398308). Can also hydrate cyanamide to urea (PubMed:10550681, PubMed:11015219). Stimulates the chloride-bicarbonate exchange activity of SLC26A6 (PubMed:15990874). Essential for bone resorption and osteoclast differentiation (PubMed:15300855). Involved in the regulation of fluid secretion into the anterior chamber of the eye. Contributes to intracellular pH regulation in the duodenal upper villous epithelium during proton-coupled peptide absorption"
+      ],
+      "gene_symbol": "CA2",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:P00918",
+      "protein_name": "Carbonic anhydrase 2",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:31Z",
+          "snapshot_path": "raw/uniprot/entries/P00918.json",
+          "snapshot_sha256": "ed44906dd1b976f4c8b0399e9e3a7a4af09b673c035a201e218a4880821c1179",
+          "url": "https://rest.uniprot.org/uniprotkb/P00918.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 4,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 20,
+      "sequence": {
+        "crc64": "2EC2BB7548F10558",
+        "length": 260,
+        "modified": null,
+        "molecular_weight": 29246,
+        "sequence_version": 2,
+        "value": "MSHHWGYGKHNGPEHWHKDFPIAKGERQSPVDIDTHTAKYDPSLKPLSVSYDQATSLRILNNGHAFNVEFDDSQDKAVLKGGPLDGTYRLIQFHFHWGSLDGQGSEHTVDKKKYAAELHLVHWNTKYGDFGKAVQQPDGLAVLGIFLKVGSAKPGLQKVVDVLDSIKTKGKSADFTNFDPRGLLPESLDYWTYPGSLTTPPLLECVTWIVLKEPISVSSEQVLKFRKLNFNGEGEPEELMVDNWRPAQPLKNRQIKASFK"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15990874",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Colocalized with SLC26A6 at the surface of the cell membrane in order to form a bicarbonate transport metabolon. Displaced from the cytosolic surface of the cell membrane by PKC in phorbol myristate acetate (PMA)-induced cells"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15990874",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15990874",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "P00918",
+      "uniprot_entry_name": "CAH2_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase III",
+        "Carbonic anhydrase III"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/P07451/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Reversible hydration of carbon dioxide"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL2885"
+      ],
+      "entry_version": 226,
+      "experimental_pdb_cross_reference_count": 5,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Reversible hydration of carbon dioxide"
+      ],
+      "gene_symbol": "CA3",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:P07451",
+      "protein_name": "Carbonic anhydrase 3",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:32Z",
+          "snapshot_path": "raw/uniprot/entries/P07451.json",
+          "snapshot_sha256": "cf4d0cf96a6252efc608b8ee5c8b35b502dffa8996e6dbb74c6fa4b67ce3394f",
+          "url": "https://rest.uniprot.org/uniprotkb/P07451.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 5,
+      "sequence": {
+        "crc64": "A305334167233FCF",
+        "length": 260,
+        "modified": null,
+        "molecular_weight": 29557,
+        "sequence_version": 3,
+        "value": "MAKEWGYASHNGPDHWHELFPNAKGENQSPVELHTKDIRHDPSLQPWSVSYDGGSAKTILNNGKTCRVVFDDTYDRSMLRGGPLPGPYRLRQFHLHWGSSDDHGSEHTVDGVKYAAELHLVHWNPKYNTFKEALKQRDGIAVIGIFLKIGHENGEFQIFLDALDKIKTKGKEAPFTKFDPSCLFPACRDYWTYQGSFTTPPCEECIVWLLLKEPMTVSSDQMAKLRSLLSSAENEPPVPLVSNWRPPQPINNRVVRASFK"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "18618712",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "P07451",
+      "uniprot_entry_name": "CAH3_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase IV",
+        "Carbonic anhydrase IV"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/P22748/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Catalyzes the reversible hydration of carbon dioxide into bicarbonate and protons and thus is essential to maintaining intracellular and extracellular pH (PubMed:15563508, PubMed:16686544, PubMed:16807956, PubMed:17127057, PubMed:17314045, PubMed:17652713, PubMed:17705204, PubMed:18618712, PubMed:19186056, PubMed:19206230, PubMed:7625839). May stimulate the sodium/bicarbonate transporter activity of SLC4A4 that acts in pH homeostasis (PubMed:15563508). It is essential for acid overload removal from the retina and retina epithelium, and acid release in the choriocapillaris in the choroid (PubMed:15563508)"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL3729"
+      ],
+      "entry_version": 232,
+      "experimental_pdb_cross_reference_count": 10,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Catalyzes the reversible hydration of carbon dioxide into bicarbonate and protons and thus is essential to maintaining intracellular and extracellular pH (PubMed:15563508, PubMed:16686544, PubMed:16807956, PubMed:17127057, PubMed:17314045, PubMed:17652713, PubMed:17705204, PubMed:18618712, PubMed:19186056, PubMed:19206230, PubMed:7625839). May stimulate the sodium/bicarbonate transporter activity of SLC4A4 that acts in pH homeostasis (PubMed:15563508). It is essential for acid overload removal from the retina and retina epithelium, and acid release in the choriocapillaris in the choroid (PubMed:15563508)"
+      ],
+      "gene_symbol": "CA4",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:P22748",
+      "protein_name": "Carbonic anhydrase 4",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:32Z",
+          "snapshot_path": "raw/uniprot/entries/P22748.json",
+          "snapshot_sha256": "28fa76c5a216b9356479d42199f709dd46e662172f2872078a5491cfe2c618f1",
+          "url": "https://rest.uniprot.org/uniprotkb/P22748.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 10,
+      "sequence": {
+        "crc64": "EF5F182474ABE9B0",
+        "length": 312,
+        "modified": null,
+        "molecular_weight": 35032,
+        "sequence_version": 2,
+        "value": "MRMLLALLALSAARPSASAESHWCYEVQAESSNYPCLVPVKWGGNCQKDRQSPINIVTTKAKVDKKLGRFFFSGYDKKQTWTVQNNGHSVMMLLENKASISGGGLPAPYQAKQLHLHWSDLPYKGSEHSLDGEHFAMEMHIVHEKEKGTSRNVKEAQDPEDEIAVLAFLVEAGTQVNEGFQPLVEALSNIPKPEMSTTMAESSLLDLLPKEEKLRHYFRYLGSLTTPTCDEKVVWTVFREPIQLHREQILAFSQKLYYDKEQTVSMKDNVRPLQQLGQRTVIKSGAPGRPLPWALPALLGPMLACLLAGFLR"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15563508",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "7625839",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9902",
+                "value": "Lipid-anchor, GPI-anchor"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "P22748",
+      "uniprot_entry_name": "CAH4_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase VA",
+        "Carbonic anhydrase VA"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/P35218/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Mitochondrial carbonic anhydrase that catalyzes the reversible conversion of carbon dioxide to bicarbonate/HCO3 (PubMed:24530203, PubMed:8356065). Mitochondria are impermeable to HCO3, and thus this intramitochondrial carbonic anhydrase is pivotal in providing HCO3 for multiple mitochondrial enzymes that catalyze the formation of essential metabolites of intermediary metabolism in the urea and Krebs cycles (PubMed:24530203)"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL4789"
+      ],
+      "entry_version": 197,
+      "experimental_pdb_cross_reference_count": 0,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Mitochondrial carbonic anhydrase that catalyzes the reversible conversion of carbon dioxide to bicarbonate/HCO3 (PubMed:24530203, PubMed:8356065). Mitochondria are impermeable to HCO3, and thus this intramitochondrial carbonic anhydrase is pivotal in providing HCO3 for multiple mitochondrial enzymes that catalyze the formation of essential metabolites of intermediary metabolism in the urea and Krebs cycles (PubMed:24530203)"
+      ],
+      "gene_symbol": "CA5A",
+      "gene_synonyms": [
+        "CA5"
+      ],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:P35218",
+      "protein_name": "Carbonic anhydrase 5A, mitochondrial",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:32Z",
+          "snapshot_path": "raw/uniprot/entries/P35218.json",
+          "snapshot_sha256": "3daaace95b24bb2a3505bfc3dc00d69a45a868bef35d44db5ad2f62660d4ce94",
+          "url": "https://rest.uniprot.org/uniprotkb/P35218.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 0,
+      "sequence": {
+        "crc64": "C4E998D269AB1FE5",
+        "length": 305,
+        "modified": null,
+        "molecular_weight": 34750,
+        "sequence_version": 1,
+        "value": "MLGRNTWKTSAFSFLVEQMWAPLWSRSMRPGRWCSQRSCAWQTSNNTLHPLWTVPVSVPGGTRQSPINIQWRDSVYDPQLKPLRVSYEAASCLYIWNTGYLFQVEFDDATEASGISGGPLENHYRLKQFHFHWGAVNEGGSEHTVDGHAYPAELHLVHWNSVKYQNYKEAVVGENGLAVIGVFLKLGAHHQTLQRLVDILPEIKHKDARAAMRPFDPSTLLPTCWDYWTYAGSLTTPPLTESVTWIIQKEPVEVAPSQLSAFRTLLFSALGEEEKMMVNNYRPLQPLMNRKVWASFQATNEGTRS"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8356065",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0173",
+                "value": "Mitochondrion"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "P35218",
+      "uniprot_entry_name": "CAH5A_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase VB",
+        "Carbonic anhydrase VB"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/Q9Y2D0/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Mitochondrial carbonic anhydrase that catalyzes the reversible conversion of carbon dioxide to bicarbonate/HCO3"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL3969"
+      ],
+      "entry_version": 186,
+      "experimental_pdb_cross_reference_count": 0,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Mitochondrial carbonic anhydrase that catalyzes the reversible conversion of carbon dioxide to bicarbonate/HCO3"
+      ],
+      "gene_symbol": "CA5B",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:Q9Y2D0",
+      "protein_name": "Carbonic anhydrase 5B, mitochondrial",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:31Z",
+          "snapshot_path": "raw/uniprot/entries/Q9Y2D0.json",
+          "snapshot_sha256": "430b3d69868adbaae7308eb09024622b7511635833c3885bcfe5e6a2ec9fa841",
+          "url": "https://rest.uniprot.org/uniprotkb/Q9Y2D0.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 0,
+      "sequence": {
+        "crc64": "7CA11920EFF2588A",
+        "length": 317,
+        "modified": null,
+        "molecular_weight": 36434,
+        "sequence_version": 1,
+        "value": "MVVMNSLRVILQASPGKLLWRKFQIPRFMPARPCSLYTCTYKTRNRALHPLWESVDLVPGGDRQSPINIRWRDSVYDPGLKPLTISYDPATCLHVWNNGYSFLVEFEDSTDKSVIKGGPLEHNYRLKQFHFHWGAIDAWGSEHTVDSKCFPAELHLVHWNAVRFENFEDAALEENGLAVIGVFLKLGKHHKELQKLVDTLPSIKHKDALVEFGSFDPSCLMPTCPDYWTYSGSLTTPPLSESVTWIIKKQPVEVDHDQLEQFRTLLFTSEGEKEKRMVDNFRPLQPLMNRTVRSSFRHDYVLNVQAKPKPATSQATP"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10409679",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0173",
+                "value": "Mitochondrion"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "Q9Y2D0",
+      "uniprot_entry_name": "CAH5B_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase VI",
+        "Carbonic anhydrase VI",
+        "Salivary carbonic anhydrase",
+        "Secreted carbonic anhydrase"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/P23280/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Reversible hydration of carbon dioxide. Its role in saliva is unknown"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL3025"
+      ],
+      "entry_version": 211,
+      "experimental_pdb_cross_reference_count": 1,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Reversible hydration of carbon dioxide. Its role in saliva is unknown"
+      ],
+      "gene_symbol": "CA6",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:P23280",
+      "protein_name": "Carbonic anhydrase 6",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:31Z",
+          "snapshot_path": "raw/uniprot/entries/P23280.json",
+          "snapshot_sha256": "3199ef165227b020a2974c38cb6c1f12de601a3dd915966d1a6a5890f27aba6f",
+          "url": "https://rest.uniprot.org/uniprotkb/P23280.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 1,
+      "sequence": {
+        "crc64": "6EBFF15085E7112D",
+        "length": 308,
+        "modified": null,
+        "molecular_weight": 35367,
+        "sequence_version": 3,
+        "value": "MRALVLLLSLFLLGGQAQHVSDWTYSEGALDEAHWPQHYPACGGQRQSPINLQRTKVRYNPSLKGLNMTGYETQAGEFPMVNNGHTVQISLPSTMRMTVADGTVYIAQQMHFHWGGASSEISGSEHTVDGIRHVIEIHIVHYNSKYKSYDIAQDAPDGLAVLAAFVEVKNYPENTYYSNFISHLANIKYPGQRTTLTGLDVQDMLPRNLQHYYTYHGSLTTPPCTENVHWFVLADFVKLSRTQVWKLENSLLDHRNKTIHNDYRRTQPLNHRVVESNFPNQEYTLGSEFQFYLHKIEEILDYLRRALN"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "P23280",
+      "uniprot_entry_name": "CAH6_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase VII",
+        "Carbonic anhydrase VII"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/P43166/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Reversible hydration of carbon dioxide"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL2326"
+      ],
+      "entry_version": 197,
+      "experimental_pdb_cross_reference_count": 11,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Reversible hydration of carbon dioxide"
+      ],
+      "gene_symbol": "CA7",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:P43166",
+      "protein_name": "Carbonic anhydrase 7",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:32Z",
+          "snapshot_path": "raw/uniprot/entries/P43166.json",
+          "snapshot_sha256": "dc0ec23dc5d7dfcf4737e905d75df89f664cdb3e05519fcfef79fbaf218da84f",
+          "url": "https://rest.uniprot.org/uniprotkb/P43166.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 8,
+      "sequence": {
+        "crc64": "7AD559FC6E07EF96",
+        "length": 264,
+        "modified": null,
+        "molecular_weight": 29658,
+        "sequence_version": 1,
+        "value": "MTGHHGWGYGQDDGPSHWHKLYPIAQGDRQSPINIISSQAVYSPSLQPLELSYEACMSLSITNNGHSVQVDFNDSDDRTVVTGGPLEGPYRLKQFHFHWGKKHDVGSEHTVDGKSFPSELHLVHWNAKKYSTFGEAASAPDGLAVVGVFLETGDEHPSMNRLTDALYMVRFKGTKAQFSCFNPKCLLPASRHYWTYPGSLTTPPLSESVTWIVLREPICISERQMGKFRSLLFTSEDDERIHMVNNFRPPQPLKGRVVKASFRA"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "P43166",
+      "uniprot_entry_name": "CAH7_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonic anhydrase VIII"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/P35219/entry",
+      "catalytic_status": "acatalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Does not have a carbonic anhydrase catalytic activity"
+        ],
+        "rhea_10748_assignment_present": false
+      },
+      "chembl_target_ids": [],
+      "entry_version": 196,
+      "experimental_pdb_cross_reference_count": 1,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Does not have a carbonic anhydrase catalytic activity"
+      ],
+      "gene_symbol": "CA8",
+      "gene_synonyms": [
+        "CALS"
+      ],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:P35219",
+      "protein_name": "Carbonic anhydrase-related protein",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:32Z",
+          "snapshot_path": "raw/uniprot/entries/P35219.json",
+          "snapshot_sha256": "60b35612ec2f99967437eff74fed92a781100c02db776ee3020a355c34e9280d",
+          "url": "https://rest.uniprot.org/uniprotkb/P35219.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 0,
+      "selected_reaction_record_count": 0,
+      "selected_structure_record_count": 1,
+      "sequence": {
+        "crc64": "C142711660A972DB",
+        "length": 290,
+        "modified": null,
+        "molecular_weight": 32973,
+        "sequence_version": 3,
+        "value": "MADLSFIEDTVAFPEKEEDEEEEEEGVEWGYEEGVEWGLVFPDANGEYQSPINLNSREARYDPSLLDVRLSPNYVVCRDCEVTNDGHTIQVILKSKSVLSGGPLPQGHEFELYEVRFHWGRENQRGSEHTVNFKAFPMELHLIHWNSTLFGSIDEAVGKPHGIAIIALFVQIGKEHVGLKAVTEILQDIQYKGKSKTIPCFNPNTLLPDPLLRDYWVYEGSLTIPPCSEGVTWILFRYPLTISQLQIEEFRRLRTHVKGAELVEGCDGILGDNFRPTQPLSDRVIRAAFQ"
+      },
+      "subcellular_location_comments": [],
+      "taxon_id": 9606,
+      "uniprot_accession": "P35219",
+      "uniprot_entry_name": "CAH8_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase IX",
+        "Carbonic anhydrase IX",
+        "Membrane antigen MN",
+        "P54/58N",
+        "Renal cell carcinoma-associated antigen G250",
+        "pMW1"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/Q16790/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Catalyzes the interconversion between carbon dioxide and water and the dissociated ions of carbonic acid (i.e. bicarbonate and hydrogen ions)"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL3594"
+      ],
+      "entry_version": 218,
+      "experimental_pdb_cross_reference_count": 30,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Catalyzes the interconversion between carbon dioxide and water and the dissociated ions of carbonic acid (i.e. bicarbonate and hydrogen ions)"
+      ],
+      "gene_symbol": "CA9",
+      "gene_synonyms": [
+        "G250",
+        "MN"
+      ],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:Q16790",
+      "protein_name": "Carbonic anhydrase 9",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:33Z",
+          "snapshot_path": "raw/uniprot/entries/Q16790.json",
+          "snapshot_sha256": "77abc0523fc4c2b797ea15d860a4bb98365bcf0caec1ee88ba765973570f1f22",
+          "url": "https://rest.uniprot.org/uniprotkb/Q16790.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 8,
+      "sequence": {
+        "crc64": "BA67195483F0F5CE",
+        "length": 459,
+        "modified": null,
+        "molecular_weight": 49698,
+        "sequence_version": 2,
+        "value": "MAPLCPSPWLPLLIPAPAPGLTVQLLLSLLLLVPVHPQRLPRMQEDSPLGGGSSGEDDPLGEEDLPSEEDSPREEDPPGEEDLPGEEDLPGEEDLPEVKPKSEEEGSLKLEDLPTVEAPGDPQEPQNNAHRDKEGDDQSHWRYGGDPPWPRVSPACAGRFQSPVDIRPQLAAFCPALRPLELLGFQLPPLPELRLRNNGHSVQLTLPPGLEMALGPGREYRALQLHLHWGAAGRPGSEHTVEGHRFPAEIHVVHLSTAFARVDEALGRPGGLAVLAAFLEEGPEENSAYEQLLSRLEEIAEEGSETQVPGLDISALLPSDFSRYFQYEGSLTTPPCAQGVIWTVFNQTVMLSAKQLHTLSDTLWGPGDSRLQLNFRATQPLNGRVIEASFPAGVDSSPRAAEPVQLNSCLAAGDILALVFGLLFAVTSVAFLVQMRRQHRRGTKGGVSYRPAEVAETGA"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Found on the surface microvilli and in the nucleus, particularly in nucleolus"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8486430",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8486430",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0188",
+                "value": "Nucleus, nucleolus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8486430",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8486430",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8486430",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0294",
+                "value": "Cell projection, microvillus membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8486430",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "Q16790",
+      "uniprot_entry_name": "CAH9_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonic anhydrase-related protein X",
+        "Cerebral protein 15"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/Q9NS85/entry",
+      "catalytic_status": "acatalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Does not have a catalytic activity"
+        ],
+        "rhea_10748_assignment_present": false
+      },
+      "chembl_target_ids": [],
+      "entry_version": 177,
+      "experimental_pdb_cross_reference_count": 0,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Does not have a catalytic activity"
+      ],
+      "gene_symbol": "CA10",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:Q9NS85",
+      "protein_name": "Carbonic anhydrase-related protein 10",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:33Z",
+          "snapshot_path": "raw/uniprot/entries/Q9NS85.json",
+          "snapshot_sha256": "8fc9acdcde1e558a85fa5e4716fb77c60e7c52919f75f629f3cf8d1b362f7f38",
+          "url": "https://rest.uniprot.org/uniprotkb/Q9NS85.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 0,
+      "selected_reaction_record_count": 0,
+      "selected_structure_record_count": 0,
+      "sequence": {
+        "crc64": "B20BFEC1800422B4",
+        "length": 328,
+        "modified": null,
+        "molecular_weight": 37563,
+        "sequence_version": 1,
+        "value": "MEIVWEVLFLLQANFIVCISAQQNSPKIHEGWWAYKEVVQGSFVPVPSFWGLVNSAWNLCSVGKRQSPVNIETSHMIFDPFLTPLRINTGGRKVSGTMYNTGRHVSLRLDKEHLVNISGGPMTYSHRLEEIRLHFGSEDSQGSEHLLNGQAFSGEVQLIHYNHELYTNVTEAAKSPNGLVVVSIFIKVSDSSNPFLNRMLNRDTITRITYKNDAYLLQGLNIEELYPETSSFITYDGSMTIPPCYETASWIIMNKPVYITRMQMHSLRLLSQNQPSQIFLSMSDNFRPVQPLNNRCIRTNINFSLQGKDCPNNRAQKLQYRVNEWLLK"
+      },
+      "subcellular_location_comments": [],
+      "taxon_id": 9606,
+      "uniprot_accession": "Q9NS85",
+      "uniprot_entry_name": "CAH10_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "CA-RP XI",
+        "Carbonic anhydrase-related protein 2"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/O75493/entry",
+      "catalytic_status": "acatalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Does not have a catalytic activity"
+        ],
+        "rhea_10748_assignment_present": false
+      },
+      "chembl_target_ids": [
+        "CHEMBL2420"
+      ],
+      "entry_version": 188,
+      "experimental_pdb_cross_reference_count": 0,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Does not have a catalytic activity"
+      ],
+      "gene_symbol": "CA11",
+      "gene_synonyms": [
+        "CARP2"
+      ],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:O75493",
+      "protein_name": "Carbonic anhydrase-related protein 11",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:33Z",
+          "snapshot_path": "raw/uniprot/entries/O75493.json",
+          "snapshot_sha256": "1c27d284e17a666e94656536119b00789c29f98abb86ee46caf2abcdba8a01c0",
+          "url": "https://rest.uniprot.org/uniprotkb/O75493.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 0,
+      "selected_structure_record_count": 0,
+      "sequence": {
+        "crc64": "A4FC408718B2E857",
+        "length": 328,
+        "modified": null,
+        "molecular_weight": 36238,
+        "sequence_version": 2,
+        "value": "MGAAARLSAPRALVLWAALGAAAHIGPAPDPEDWWSYKDNLQGNFVPGPPFWGLVNAAWSLCAVGKRQSPVDVELKRVLYDPFLPPLRLSTGGEKLRGTLYNTGRHVSFLPAPRPVVNVSGGPLLYSHRLSELRLLFGARDGAGSEHQINHQGFSAEVQLIHFNQELYGNFSAASRGPNGLAILSLFVNVASTSNPFLSRLLNRDTITRISYKNDAYFLQDLSLELLFPESFGFITYQGSLSTPPCSETVTWILIDRALNITSLQMHSLRLLSQNPPSQIFQSLSGNSRPLQPLAHRALRGNRDPRHPERRCRGPNYRLHVDGVPHGR"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "O75493",
+      "uniprot_entry_name": "CAH11_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase XII",
+        "Carbonic anhydrase XII",
+        "Tumor antigen HOM-RCC-3.1.3"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/O43570/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Reversible hydration of carbon dioxide"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL3242"
+      ],
+      "entry_version": 219,
+      "experimental_pdb_cross_reference_count": 40,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Reversible hydration of carbon dioxide"
+      ],
+      "gene_symbol": "CA12",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:O43570",
+      "protein_name": "Carbonic anhydrase 12",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:33Z",
+          "snapshot_path": "raw/uniprot/entries/O43570.json",
+          "snapshot_sha256": "5e3bf6d20c857bc7f533ebfbfaf42d7ad6e84050aeb13c8f959567b94eb24d19",
+          "url": "https://rest.uniprot.org/uniprotkb/O43570.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 8,
+      "sequence": {
+        "crc64": "9016216BF2CA6C0C",
+        "length": 354,
+        "modified": null,
+        "molecular_weight": 39451,
+        "sequence_version": 1,
+        "value": "MPRRSLHAAAVLLLVILKEQPSSPAPVNGSKWTYFGPDGENSWSKKYPSCGGLLQSPIDLHSDILQYDASLTPLEFQGYNLSANKQFLLTNNGHSVKLNLPSDMHIQGLQSRYSATQLHLHWGNPNDPHGSEHTVSGQHFAAELHIVHYNSDLYPDASTASNKSEGLAVLAVLIEMGSFNPSYDKIFSHLQHVKYKGQEAFVPGFNIEELLPERTAEYYRYRGSLTTPPCNPTVLWTVFRNPVQISQEQLLALETALYCTHMDDPSPREMINNFRQVQKFDERLVYTSFSQVQVCTAAGLSLGIILSLALAGILGICIVVVVSIWLFRRKSIKKGDNKGVIYKPATKMETEAHA"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0162",
+                "value": "Membrane"
+              },
+              "topology": {
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "26911677",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "O43570",
+      "uniprot_entry_name": "CAH12_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase XIII",
+        "Carbonic anhydrase XIII"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/Q8N1Q1/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Catalyzes the reversible conversion of carbon dioxide to hydrogencarbonate/bicarbonate and thus is essential in the regulation of pH and metabolic processes"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL3912"
+      ],
+      "entry_version": 181,
+      "experimental_pdb_cross_reference_count": 18,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Catalyzes the reversible conversion of carbon dioxide to hydrogencarbonate/bicarbonate and thus is essential in the regulation of pH and metabolic processes"
+      ],
+      "gene_symbol": "CA13",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:Q8N1Q1",
+      "protein_name": "Carbonic anhydrase 13",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:33Z",
+          "snapshot_path": "raw/uniprot/entries/Q8N1Q1.json",
+          "snapshot_sha256": "606f7712a41abd05d3b9d0522bbefd377f44b400f37aba7cab2c788361ea41dd",
+          "url": "https://rest.uniprot.org/uniprotkb/Q8N1Q1.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 7,
+      "sequence": {
+        "crc64": "AE677F028ED729FE",
+        "length": 262,
+        "modified": null,
+        "molecular_weight": 29443,
+        "sequence_version": 1,
+        "value": "MSRLSWGYREHNGPIHWKEFFPIADGDQQSPIEIKTKEVKYDSSLRPLSIKYDPSSAKIISNSGHSFNVDFDDTENKSVLRGGPLTGSYRLRQVHLHWGSADDHGSEHIVDGVSYAAELHVVHWNSDKYPSFVEAAHEPDGLAVLGVFLQIGEPNSQLQKITDTLDSIKEKGKQTRFTNFDLLSLLPPSWDYWTYPGSLTVPPLLESVTWIVLKQPINISSQQLAKFRSLLCTAEGEAAAFLVSNHRPPQPLKGRKVRASFH"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q9D6N1",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "Q8N1Q1",
+      "uniprot_entry_name": "CAH13_HUMAN"
+    },
+    {
+      "alternative_names": [
+        "Carbonate dehydratase XIV",
+        "Carbonic anhydrase XIV"
+      ],
+      "canonical_url": "https://www.uniprot.org/uniprotkb/Q9ULX7/entry",
+      "catalytic_status": "catalytic",
+      "catalytic_status_basis": {
+        "function_texts": [
+          "Reversible hydration of carbon dioxide"
+        ],
+        "rhea_10748_assignment_present": true
+      },
+      "chembl_target_ids": [
+        "CHEMBL3510"
+      ],
+      "entry_version": 197,
+      "experimental_pdb_cross_reference_count": 2,
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "function_texts": [
+        "Reversible hydration of carbon dioxide"
+      ],
+      "gene_symbol": "CA14",
+      "gene_synonyms": [],
+      "last_annotation_update": "2026-06-10",
+      "organism": "Homo sapiens",
+      "protein_id": "UNIPROT:Q9ULX7",
+      "protein_name": "Carbonic anhydrase 14",
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:33Z",
+          "snapshot_path": "raw/uniprot/entries/Q9ULX7.json",
+          "snapshot_sha256": "17fcd728b929f41ca01b398e329f97c280d0f5febc44c136da8047b295cc754e",
+          "url": "https://rest.uniprot.org/uniprotkb/Q9ULX7.json"
+        }
+      ],
+      "review_status": "reviewed",
+      "selected_activity_record_count": 2,
+      "selected_reaction_record_count": 1,
+      "selected_structure_record_count": 2,
+      "sequence": {
+        "crc64": "6E101C44EA70A700",
+        "length": 337,
+        "modified": null,
+        "molecular_weight": 37668,
+        "sequence_version": 1,
+        "value": "MLFSALLLEVIWILAADGGQHWTYEGPHGQDHWPASYPECGNNAQSPIDIQTDSVTFDPDLPALQPHGYDQPGTEPLDLHNNGHTVQLSLPSTLYLGGLPRKYVAAQLHLHWGQKGSPGGSEHQINSEATFAELHIVHYDSDSYDSLSEAAERPQGLAVLGILIEVGETKNIAYEHILSHLHEVRHKDQKTSVPPFNLRELLPKQLGQYFRYNGSLTTPPCYQSVLWTVFYRRSQISMEQLEKLQGTLFSTEEEPSKLLVQNYRALQPLNQRMVFASFIQAGSSYTTGEMLSLGVGILVGCLCLLLAVYFIARKIRKKRLENRKSVVFTSAQATTEA"
+      },
+      "subcellular_location_comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0162",
+                "value": "Membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "taxon_id": 9606,
+      "uniprot_accession": "Q9ULX7",
+      "uniprot_entry_name": "CAH14_HUMAN"
+    }
+  ]
+}

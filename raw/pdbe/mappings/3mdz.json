@@ -1,0 +1,1 @@
+{"3mdz":{"UniProt":{"P43166":{"name":"CAH7_HUMAN","mappings":[{"entity_id":1,"chain_id":"A","struct_asym_id":"A","unp_start":5,"unp_end":262,"start":{"author_residue_number":5,"author_insertion_code":"","residue_number":24},"end":{"author_residue_number":262,"author_insertion_code":"","residue_number":281},"identity":1.0,"coverage":0.977}],"identifier":"CAH7_HUMAN"}}}}

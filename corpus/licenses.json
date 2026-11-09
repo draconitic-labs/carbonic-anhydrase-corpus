@@ -1,0 +1,84 @@
+{
+  "aggregate_license": null,
+  "aggregate_license_note": "No blanket license is asserted for this mixed-source aggregation. Reusers must comply with each source license and preserve record provenance.",
+  "generator_code_license": "Apache-2.0",
+  "record_licenses": {
+    "assay_activity": {
+      "license": "CC-BY-SA-3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode"
+    },
+    "experimental_structure_mapping": {
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    "reaction_assignment": {
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    }
+  },
+  "sources": [
+    {
+      "attribution_required": true,
+      "license": "CC-BY-4.0",
+      "license_text": "LICENSES/CC-BY-4.0.txt",
+      "official_license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "snapshot": {
+        "retrieved_at": "2026-07-14T09:21:21Z",
+        "snapshot_path": "raw/licenses/uniprot-license.txt",
+        "snapshot_sha256": "64e362ea88d408d318b9aa3fa7842e5fde78a2c8187b0070641982019bb16a32",
+        "url": "https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/LICENSE"
+      },
+      "source": "UniProtKB",
+      "terms_url": "https://www.uniprot.org/help/license"
+    },
+    {
+      "attribution_required": true,
+      "license": "CC-BY-4.0",
+      "license_text": "LICENSES/CC-BY-4.0.txt",
+      "official_license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "snapshot": {
+        "retrieved_at": "2026-07-14T09:21:22Z",
+        "snapshot_path": "raw/licenses/rhea-license.txt",
+        "snapshot_sha256": "b9df4c23b425e50676352ec3c4cf1ae753d70ab339a8b5b9ae631f5418acf03e",
+        "url": "https://ftp.expasy.org/databases/rhea/LICENSE.txt"
+      },
+      "source": "Rhea",
+      "terms_url": "https://ftp.expasy.org/databases/rhea/LICENSE.txt"
+    },
+    {
+      "applies_to": [
+        "corpus/activities.json",
+        "assay_activity records in corpus/corpus.json",
+        "raw/chembl/**"
+      ],
+      "attribution_required": true,
+      "citation": "ChEMBL release 37, doi:10.6019/CHEMBL.database.37",
+      "license": "CC-BY-SA-3.0",
+      "license_text": "LICENSES/CC-BY-SA-3.0.txt",
+      "official_license_url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+      "share_alike": true,
+      "snapshot": {
+        "retrieved_at": "2026-07-14T09:21:22Z",
+        "snapshot_path": "raw/licenses/chembl-license-extract.txt",
+        "snapshot_sha256": "c6f4f039e199b88c2ae6a007c829dd2c43cf92ec7c1c38be40a9db2e690a4c8d",
+        "url": "https://chembl.gitbook.io/chembl-interface-documentation/about"
+      },
+      "source": "ChEMBL",
+      "terms_url": "https://chembl.gitbook.io/chembl-interface-documentation/about"
+    },
+    {
+      "attribution_requested_as_scientific_practice": true,
+      "license": "CC0-1.0",
+      "license_text": "LICENSES/CC0-1.0.txt",
+      "official_license_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+      "snapshot": {
+        "retrieved_at": "2026-07-14T09:21:23Z",
+        "snapshot_path": "raw/licenses/pdbe-license-extract.txt",
+        "snapshot_sha256": "ac2354d1f87b5d32ad06a588f66f26774d10f5aa1cf088b5640ac10f8fe3c3dc",
+        "url": "https://www.ebi.ac.uk/pdbe/about/public-data-access-statement"
+      },
+      "source": "PDBe and wwPDB public data",
+      "terms_url": "https://www.ebi.ac.uk/pdbe/about/public-data-access-statement"
+    }
+  ]
+}

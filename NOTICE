@@ -1,0 +1,51 @@
+Human alpha-carbonic anhydrase evidence corpus
+Copyright 2026 Draconitic Labs
+
+The generator, validator, schema and tests are licensed under the Apache
+License, Version 2.0 (LICENSE).
+
+The data under corpus/ and raw/ comes from the sources below, each under its
+own licence. No single licence covers the aggregated data. Every evidence
+record in corpus/corpus.json carries a "license" and "license_url" field, and
+corpus/licenses.json records each source's terms. The full legal codes are in
+LICENSES/.
+
+Files under corpus/ are selected and normalized from the raw/ snapshots by
+Draconitic Labs, 2026; files under raw/ are unmodified API responses, except
+raw/licenses/chembl-license-extract.txt and pdbe-license-extract.txt, which are
+text extracts of the licence pages.
+
+UniProtKB, UniProt Consortium
+  Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+  Legal code: https://creativecommons.org/licenses/by/4.0/legalcode (LICENSES/CC-BY-4.0.txt)
+  Terms: https://www.uniprot.org/help/license (raw/licenses/uniprot-license.txt)
+  Files: raw/uniprot/**, corpus/family.json, corpus/structures.json, and the
+  protein dossiers, structure-mapping and reaction-assignment records in
+  corpus/corpus.json, which copy UniProtKB entries, cross-references and
+  annotations.
+
+Rhea
+  Licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+  Legal code: https://creativecommons.org/licenses/by/4.0/legalcode (LICENSES/CC-BY-4.0.txt)
+  Terms: https://ftp.expasy.org/databases/rhea/LICENSE.txt (raw/licenses/rhea-license.txt)
+  Files: raw/rhea/**, corpus/reactions.json and the reaction_assignment
+  records in corpus/corpus.json.
+
+ChEMBL, EMBL-EBI
+  Licence: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+  Legal code: https://creativecommons.org/licenses/by-sa/3.0/legalcode (LICENSES/CC-BY-SA-3.0.txt)
+  Terms: https://chembl.gitbook.io/chembl-interface-documentation/about
+         (extract in raw/licenses/chembl-license-extract.txt)
+  Citation: ChEMBL release 37, doi:10.6019/CHEMBL.database.37
+  Files under CC BY-SA 3.0, shared under the same licence:
+    corpus/activities.json
+    the assay_activity records in corpus/corpus.json
+    raw/chembl/**
+
+PDBe and wwPDB public data, EMBL-EBI
+  Licence: Creative Commons Zero 1.0 Universal (CC0 1.0)
+  Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode (LICENSES/CC0-1.0.txt)
+  Terms: https://www.ebi.ac.uk/pdbe/about/public-data-access-statement
+         (extract in raw/licenses/pdbe-license-extract.txt)
+  Files: raw/pdbe/**, and the PDBe structure and SIFTS fields of the
+  structure-mapping records.

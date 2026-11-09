@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://draconitic.com/schemas/human-alpha-carbonic-anhydrase-evidence-corpus-v1.json",
+  "title": "Human alpha-carbonic anhydrase evidence corpus v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["metadata", "proteins", "evidence_records", "licenses"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["schema_version", "corpus_id", "release_id", "record_counts", "source_releases", "scope"],
+      "properties": {
+        "schema_version": {"const": "1.0.0"},
+        "corpus_id": {"const": "human-alpha-carbonic-anhydrase-evidence-v1"},
+        "release_id": {"type": "string", "pattern": "^haca-evidence-v1-[0-9a-f]{16}$"},
+        "record_counts": {
+          "type": "object",
+          "required": ["proteins", "experimental_structure_mapping", "assay_activity", "reaction_assignment", "total_evidence_records"],
+          "properties": {
+            "proteins": {"const": 15},
+            "experimental_structure_mapping": {"const": 80},
+            "assay_activity": {"const": 28},
+            "reaction_assignment": {"const": 12},
+            "total_evidence_records": {"const": 120}
+          }
+        },
+        "source_releases": {"type": "object"},
+        "scope": {"type": "object"}
+      }
+    },
+    "proteins": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {"$ref": "#/$defs/protein"}
+    },
+    "evidence_records": {
+      "type": "array",
+      "minItems": 120,
+      "maxItems": 120,
+      "items": {
+        "oneOf": [
+          {"$ref": "#/$defs/structure"},
+          {"$ref": "#/$defs/activity"},
+          {"$ref": "#/$defs/reaction"}
+        ]
+      }
+    },
+    "licenses": {"type": "object"}
+  },
+  "$defs": {
+    "provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["snapshot_path", "snapshot_sha256", "retrieved_at", "url"],
+        "properties": {
+          "snapshot_path": {"type": "string", "pattern": "^raw/"},
+          "snapshot_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "retrieved_at": {"type": "string", "format": "date-time"},
+          "url": {"type": "string", "format": "uri"}
+        }
+      }
+    },
+    "protein": {
+      "type": "object",
+      "required": ["protein_id", "gene_symbol", "uniprot_accession", "taxon_id", "sequence", "catalytic_status", "provenance"],
+      "properties": {
+        "protein_id": {"type": "string", "pattern": "^UNIPROT:"},
+        "gene_symbol": {"type": "string"},
+        "uniprot_accession": {"type": "string"},
+        "taxon_id": {"const": 9606},
+        "sequence": {"type": "object"},
+        "catalytic_status": {"enum": ["catalytic", "acatalytic"]},
+        "provenance": {"$ref": "#/$defs/provenance"}
+      }
+    },
+    "structure": {
+      "type": "object",
+      "required": ["record_id", "evidence_type", "protein", "structure", "sifts_mapping", "construct_entities", "provenance", "license", "license_url"],
+      "properties": {
+        "record_id": {"type": "string", "pattern": "^STRUCTURE:PDB:"},
+        "evidence_type": {"const": "experimental_structure_mapping"},
+        "protein": {"type": "object"},
+        "structure": {"type": "object"},
+        "sifts_mapping": {"type": "object"},
+        "construct_entities": {"type": "array", "minItems": 1},
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "license": {"const": "CC-BY-4.0"},
+        "license_url": {"const": "https://creativecommons.org/licenses/by/4.0/legalcode"}
+      }
+    },
+    "activity": {
+      "type": "object",
+      "required": ["record_id", "evidence_type", "protein", "target", "assay", "measurement", "compound", "comparability", "provenance", "license", "license_url"],
+      "properties": {
+        "record_id": {"type": "string", "pattern": "^ACTIVITY:ChEMBL_37:"},
+        "evidence_type": {"const": "assay_activity"},
+        "protein": {"type": "object"},
+        "target": {"type": "object"},
+        "assay": {"type": "object"},
+        "measurement": {"type": "object"},
+        "compound": {"type": "object"},
+        "comparability": {"type": "object"},
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "license": {"const": "CC-BY-SA-3.0"},
+        "license_url": {"const": "https://creativecommons.org/licenses/by-sa/3.0/legalcode"}
+      }
+    },
+    "reaction": {
+      "type": "object",
+      "required": ["record_id", "evidence_type", "protein", "uniprot_assignment", "rhea_reaction", "provenance", "license", "license_url"],
+      "properties": {
+        "record_id": {"type": "string", "pattern": "^REACTION:UNIPROT:"},
+        "evidence_type": {"const": "reaction_assignment"},
+        "protein": {"type": "object"},
+        "uniprot_assignment": {"type": "object"},
+        "rhea_reaction": {"type": "object"},
+        "provenance": {"$ref": "#/$defs/provenance"},
+        "license": {"const": "CC-BY-4.0"},
+        "license_url": {"const": "https://creativecommons.org/licenses/by/4.0/legalcode"}
+      }
+    }
+  }
+}

@@ -1,0 +1,1376 @@
+{
+  "count": 12,
+  "evidence_type": "reaction_assignment",
+  "records": [
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/O43570/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA12",
+        "taxon_id": 9606,
+        "uniprot_accession": "O43570"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:33Z",
+          "snapshot_path": "raw/uniprot/entries/O43570.json",
+          "snapshot_sha256": "5e3bf6d20c857bc7f533ebfbfaf42d7ad6e84050aeb13c8f959567b94eb24d19",
+          "url": "https://rest.uniprot.org/uniprotkb/O43570.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:O43570:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "26911677",
+            "source": "PubMed"
+          }
+        ],
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/P00915/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA1",
+        "taxon_id": 9606,
+        "uniprot_accession": "P00915"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:31Z",
+          "snapshot_path": "raw/uniprot/entries/P00915.json",
+          "snapshot_sha256": "b3bde31c781c25e15bf68bd00c694f9b1027cdc49ec26688ca7d047de2a6ca95",
+          "url": "https://rest.uniprot.org/uniprotkb/P00915.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:P00915:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "10550681",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16506782",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16686544",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16807956",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17127057",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17314045",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17407288",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18618712",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19186056",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19206230",
+            "source": "PubMed"
+          }
+        ],
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/P00918/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA2",
+        "taxon_id": 9606,
+        "uniprot_accession": "P00918"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:31Z",
+          "snapshot_path": "raw/uniprot/entries/P00918.json",
+          "snapshot_sha256": "ed44906dd1b976f4c8b0399e9e3a7a4af09b673c035a201e218a4880821c1179",
+          "url": "https://rest.uniprot.org/uniprotkb/P00918.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:P00918:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "11327835",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "11802772",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "11831900",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "12056894",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "12171926",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "1336460",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "14736236",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "15300855",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "15453828",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "15667203",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "15865431",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16106378",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16214338",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16290146",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16686544",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16759856",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16807956",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17127057",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17251017",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17314045",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17330962",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17346964",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17540563",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17588751",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17705204",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18024029",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18162396",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18266323",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18374572",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18481843",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18618712",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18640037",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18942852",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "1909891",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "1910042",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19170619",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19186056",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19206230",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19520834",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19778001",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "7761440",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "7901850",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "8218160",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "8262987",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "8399159",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "8451242",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "8485129",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "8639494",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "9265618",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "9398308",
+            "source": "PubMed"
+          }
+        ],
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/P07451/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA3",
+        "taxon_id": 9606,
+        "uniprot_accession": "P07451"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:32Z",
+          "snapshot_path": "raw/uniprot/entries/P07451.json",
+          "snapshot_sha256": "cf4d0cf96a6252efc608b8ee5c8b35b502dffa8996e6dbb74c6fa4b67ce3394f",
+          "url": "https://rest.uniprot.org/uniprotkb/P07451.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:P07451:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17427958",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18618712",
+            "source": "PubMed"
+          }
+        ],
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/P22748/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA4",
+        "taxon_id": 9606,
+        "uniprot_accession": "P22748"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:32Z",
+          "snapshot_path": "raw/uniprot/entries/P22748.json",
+          "snapshot_sha256": "28fa76c5a216b9356479d42199f709dd46e662172f2872078a5491cfe2c618f1",
+          "url": "https://rest.uniprot.org/uniprotkb/P22748.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:P22748:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "15563508",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16686544",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16807956",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17127057",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17314045",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17652713",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17705204",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18618712",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19186056",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19206230",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "7625839",
+            "source": "PubMed"
+          }
+        ],
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/P23280/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA6",
+        "taxon_id": 9606,
+        "uniprot_accession": "P23280"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:31Z",
+          "snapshot_path": "raw/uniprot/entries/P23280.json",
+          "snapshot_sha256": "3199ef165227b020a2974c38cb6c1f12de601a3dd915966d1a6a5890f27aba6f",
+          "url": "https://rest.uniprot.org/uniprotkb/P23280.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:P23280:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": null,
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/P35218/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA5A",
+        "taxon_id": 9606,
+        "uniprot_accession": "P35218"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:32Z",
+          "snapshot_path": "raw/uniprot/entries/P35218.json",
+          "snapshot_sha256": "3daaace95b24bb2a3505bfc3dc00d69a45a868bef35d44db5ad2f62660d4ce94",
+          "url": "https://rest.uniprot.org/uniprotkb/P35218.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:P35218:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16686544",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "16807956",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17127057",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17314045",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18618712",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19186056",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19206230",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "24530203",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "8356065",
+            "source": "PubMed"
+          }
+        ],
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/P43166/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA7",
+        "taxon_id": 9606,
+        "uniprot_accession": "P43166"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:32Z",
+          "snapshot_path": "raw/uniprot/entries/P43166.json",
+          "snapshot_sha256": "dc0ec23dc5d7dfcf4737e905d75df89f664cdb3e05519fcfef79fbaf218da84f",
+          "url": "https://rest.uniprot.org/uniprotkb/P43166.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:P43166:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": null,
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/Q16790/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA9",
+        "taxon_id": 9606,
+        "uniprot_accession": "Q16790"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:33Z",
+          "snapshot_path": "raw/uniprot/entries/Q16790.json",
+          "snapshot_sha256": "77abc0523fc4c2b797ea15d860a4bb98365bcf0caec1ee88ba765973570f1f22",
+          "url": "https://rest.uniprot.org/uniprotkb/Q16790.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:Q16790:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17314045",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "17705204",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18703501",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19186056",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19206230",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19805286",
+            "source": "PubMed"
+          }
+        ],
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/Q8N1Q1/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA13",
+        "taxon_id": 9606,
+        "uniprot_accession": "Q8N1Q1"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:33Z",
+          "snapshot_path": "raw/uniprot/entries/Q8N1Q1.json",
+          "snapshot_sha256": "606f7712a41abd05d3b9d0522bbefd377f44b400f37aba7cab2c788361ea41dd",
+          "url": "https://rest.uniprot.org/uniprotkb/Q8N1Q1.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:Q8N1Q1:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "18618712",
+            "source": "PubMed"
+          }
+        ],
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/Q9ULX7/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA14",
+        "taxon_id": 9606,
+        "uniprot_accession": "Q9ULX7"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:33Z",
+          "snapshot_path": "raw/uniprot/entries/Q9ULX7.json",
+          "snapshot_sha256": "17fcd728b929f41ca01b398e329f97c280d0f5febc44c136da8047b295cc754e",
+          "url": "https://rest.uniprot.org/uniprotkb/Q9ULX7.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:Q9ULX7:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": null,
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    },
+    {
+      "canonical_urls": {
+        "rhea": "https://www.rhea-db.org/rhea/10748",
+        "uniprot": "https://www.uniprot.org/uniprotkb/Q9Y2D0/entry"
+      },
+      "evidence_type": "reaction_assignment",
+      "family_id": "human-alpha-carbonic-anhydrase",
+      "interpretation_boundary": {
+        "directional_flux_claim": false,
+        "kinetic_parameter_claim": false,
+        "tissue_activity_claim": false
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+      "protein": {
+        "catalytic_status": "catalytic",
+        "gene_symbol": "CA5B",
+        "taxon_id": 9606,
+        "uniprot_accession": "Q9Y2D0"
+      },
+      "provenance": [
+        {
+          "retrieved_at": "2026-07-14T09:21:31Z",
+          "snapshot_path": "raw/uniprot/entries/Q9Y2D0.json",
+          "snapshot_sha256": "430b3d69868adbaae7308eb09024622b7511635833c3885bcfe5e6a2ec9fa841",
+          "url": "https://rest.uniprot.org/uniprotkb/Q9Y2D0.json"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/reaction-10748.tsv",
+          "snapshot_sha256": "7144817ba5674817b1ae7fdb610382232253c7dae26443fbc1a63a4761cab80c",
+          "url": "https://www.rhea-db.org/rhea?query=rhea%3A10748&format=tsv"
+        },
+        {
+          "retrieved_at": "2026-07-14T09:21:29Z",
+          "snapshot_path": "raw/rhea/rhea-release.properties",
+          "snapshot_sha256": "83f707a0293fa5b3c3f860836b5b60bcdb64bd0a3921f4ebebf63f4a0a7439b7",
+          "url": "https://ftp.expasy.org/databases/rhea/rhea-release.properties"
+        }
+      ],
+      "record_id": "REACTION:UNIPROT:Q9Y2D0:RHEA:10748",
+      "rhea_reaction": {
+        "enzyme_class": "EC:4.2.1.1 carbonic anhydrase",
+        "equation": "hydrogencarbonate + H(+) = CO2 + H2O",
+        "linked_enzyme_count_from_snapshot": 52787,
+        "rhea_id": "RHEA:10748"
+      },
+      "uniprot_assignment": {
+        "cross_references": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:10748"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15377"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:15378"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:16526"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17544"
+          }
+        ],
+        "ec_number": "4.2.1.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "10409679",
+            "source": "PubMed"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "id": "19206230",
+            "source": "PubMed"
+          }
+        ],
+        "reaction_name": "hydrogencarbonate + H(+) = CO2 + H2O"
+      }
+    }
+  ],
+  "schema_version": "1.0.0"
+}

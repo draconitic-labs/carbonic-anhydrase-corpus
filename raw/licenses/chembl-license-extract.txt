@@ -1,0 +1,5 @@
+Extract of https://chembl.gitbook.io/chembl-interface-documentation/about
+Retrieved 2026-07-14T09:21:22Z
+Page SHA-256 631bfa1c28c01d38de16b9c085fbde341e4d2b943dec122be09a55ef1b87db88
+
+The ChEMBL data is made available on a Creative Commons Attribution-Share Alike 3.0 Unported License.

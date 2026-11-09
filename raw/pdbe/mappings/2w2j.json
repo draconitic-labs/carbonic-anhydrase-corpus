@@ -1,0 +1,1 @@
+{"2w2j":{"UniProt":{"P35219":{"name":"CAH8_HUMAN","mappings":[{"entity_id":1,"chain_id":"A","struct_asym_id":"A","unp_start":1,"unp_end":290,"start":{"author_residue_number":null,"author_insertion_code":"","residue_number":2},"end":{"author_residue_number":290,"author_insertion_code":"","residue_number":291},"identity":1.0,"coverage":1.0}],"identifier":"CAH8_HUMAN"}}}}

@@ -1,0 +1,1 @@
+{"4g0c":{"UniProt":{"P00918":{"name":"CAH2_HUMAN","mappings":[{"entity_id":1,"chain_id":"A","struct_asym_id":"A","unp_start":4,"unp_end":260,"start":{"author_residue_number":4,"author_insertion_code":"","residue_number":1},"end":{"author_residue_number":261,"author_insertion_code":"","residue_number":257},"identity":1.0,"coverage":0.988}],"identifier":"CAH2_HUMAN"}}}}

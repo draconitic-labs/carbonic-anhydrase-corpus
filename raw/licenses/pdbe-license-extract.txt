@@ -1,0 +1,5 @@
+Extract of https://www.ebi.ac.uk/pdbe/about/public-data-access-statement
+Retrieved 2026-07-14T09:21:23Z
+Page SHA-256 164397d9ced4486a420f6e9a0a9deaca63cfb756c53fb8b4abd90abd951f2b50
+
+Therefore our facilities provide data available to all in accordance with the Creative Commons Zero ( CC0 ) designation and the Terms and Conditions of this website.

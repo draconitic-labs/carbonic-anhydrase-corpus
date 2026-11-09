@@ -1,0 +1,1 @@
+{"4lu3":{"UniProt":{"Q9ULX7":{"name":"CAH14_HUMAN","mappings":[{"entity_id":1,"chain_id":"A","struct_asym_id":"A","unp_start":16,"unp_end":290,"start":{"author_residue_number":null,"author_insertion_code":"","residue_number":1},"end":{"author_residue_number":null,"author_insertion_code":"","residue_number":275},"identity":0.99,"coverage":0.854}],"identifier":"CAH14_HUMAN"}}}}
